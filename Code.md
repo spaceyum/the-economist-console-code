@@ -7,6 +7,7 @@ This code will enable you, a free subscription user, to view and read full artic
 
 ___________________________________________________________________________________________________________________________________________________________
 
+
 fetch(window.location.href) 
   .then(response => response.text()) 
   .then(data => { 
@@ -15,6 +16,7 @@ fetch(window.location.href)
     parts[1].parentNode.removeChild(parts[1]); 
     parts[0].insertAdjacentHTML('afterend', found[1]); 
   }); 
+ 
   
 ___________________________________________________________________________________________________________________________________________________________
 
